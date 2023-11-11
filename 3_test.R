@@ -1,4 +1,4 @@
-prj_path <- wow::init("test", "agworkflows")
+prj_path <- wow::init("test", "agworkflows")$prj_path
 
 f <- file.path(prj_path, "data/intermediate/model_results.rds")
 d <- readRDS(f)
